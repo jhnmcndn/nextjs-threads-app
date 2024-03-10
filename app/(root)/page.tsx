@@ -1,7 +1,10 @@
+
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      <h1>Threads</h1>
-    </main>
+    <>
+       <div>
+          <h1 className="head-text text-left">Home</h1>
+       </div>
+    </>
   );
 }
